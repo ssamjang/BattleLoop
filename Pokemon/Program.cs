@@ -18,10 +18,10 @@ namespace Pokemon
             //Creates a list of Elite Four trainers
             List<Trainer> eliteFour = new List<Trainer>()
             {
-                new Trainer("Lorelei", 5, 2000),
-                new Trainer("Bruno", 5, 1000),
-                new Trainer("Agatha", 5, 3000),
-                new Trainer("Lance", 5, 5000)
+                new Trainer("Lorelei", 2, 2000),
+                new Trainer("Bruno", 2, 1000),
+                new Trainer("Agatha", 2, 3000),
+                new Trainer("Lance", 2, 5000)
             };
 
             while (!battleFinished) //Battle loop
